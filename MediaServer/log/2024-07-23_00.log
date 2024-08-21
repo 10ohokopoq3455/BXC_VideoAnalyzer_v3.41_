@@ -1,0 +1,397 @@
+2024-07-23 13:24:31.011 I [MediaServer] [1093736-MediaServer] System.cpp:177 systemSetup | core文件大小设置为:18446744073709551615
+2024-07-23 13:24:31.012 I [MediaServer] [1093736-MediaServer] System.cpp:186 systemSetup | 文件最大描述符个数设置为:1048576
+2024-07-23 13:24:31.012 I [MediaServer] [1093736-MediaServer] main.cpp:258 start_main | ZLMediaKit(git hash:/,branch:,build time:2024-07-12T11:48:44)
+2024-07-23 13:24:31.012 D [MediaServer] [1093736-stamp thread] util.cpp:366 operator() | Stamp thread started
+2024-07-23 13:24:31.018 W [MediaServer] [1093736-event poller 3] util.cpp:571 setThreadAffinity | pthread_setaffinity_np failed: resource temporarily unavailable
+2024-07-23 13:24:31.019 I [MediaServer] [1093736-MediaServer] EventPoller.cpp:587 EventPollerPool | EventPoller created size: 4
+2024-07-23 13:24:31.020 I [MediaServer] [1093736-MediaServer] main.cpp:361 start_main | 已启动http api 接口
+2024-07-23 13:24:31.020 I [MediaServer] [1093736-MediaServer] main.cpp:363 start_main | 已启动http hook 接口
+2024-07-23 13:24:31.021 I [MediaServer] [1093736-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9554
+2024-07-23 13:24:31.021 I [MediaServer] [1093736-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 332
+2024-07-23 13:24:31.021 I [MediaServer] [1093736-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9002
+2024-07-23 13:24:31.021 I [MediaServer] [1093736-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 443
+2024-07-23 13:24:31.021 I [MediaServer] [1093736-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9000
+2024-07-23 13:24:31.023 I [MediaServer] [1093736-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 10000
+2024-07-23 13:24:31.024 I [MediaServer] [1093736-MediaServer] UdpServer.cpp:120 start_l | UDP server bind to [::]: 10000
+2024-07-23 13:27:17.976 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:88 play | rtsp://192.168.10.75:8554/stream0 null null 0
+2024-07-23 13:27:27.955 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:27:27.956 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:27:59.038 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream0 null null 0
+2024-07-23 13:27:59.103 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 0 rtsp play success
+2024-07-23 13:27:59.103 I [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:133 operator() | play rtsp://192.168.10.80:8554/stream0 success
+2024-07-23 13:27:59.189 I [MediaServer] [1093736-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注册:rtsp://__defaultVhost__/live/camb17b6fb360644
+2024-07-23 13:27:59.191 D [MediaServer] [1093736-event poller 1] MediaSink.cpp:162 emitAllTrackReady | All track ready use 88ms
+2024-07-23 13:27:59.191 I [MediaServer] [1093736-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注册:fmp4://__defaultVhost__/live/camb17b6fb360644
+2024-07-23 13:27:59.191 I [MediaServer] [1093736-event poller 1] MultiMediaSourceMuxer.cpp:561 onAllTrackReady | stream: rtsp://192.168.10.80:8554/stream0 , codec info: H264[600/400/15] 
+2024-07-23 13:28:00.386 D [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream1 null null 0
+2024-07-23 13:28:00.391 W [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:694 onPlayResult_l | 0 rtsp play success
+2024-07-23 13:28:00.392 I [MediaServer] [1093736-event poller 3] PlayerProxy.cpp:133 operator() | play rtsp://192.168.10.80:8554/stream1 success
+2024-07-23 13:28:00.451 I [MediaServer] [1093736-event poller 3] MediaSource.cpp:517 emitEvent | 媒体注册:rtsp://__defaultVhost__/live/came68a60cf57418
+2024-07-23 13:28:00.457 D [MediaServer] [1093736-event poller 3] MediaSink.cpp:162 emitAllTrackReady | All track ready use 66ms
+2024-07-23 13:28:00.457 I [MediaServer] [1093736-event poller 3] MediaSource.cpp:517 emitEvent | 媒体注册:fmp4://__defaultVhost__/live/came68a60cf57418
+2024-07-23 13:28:00.457 I [MediaServer] [1093736-event poller 3] MultiMediaSourceMuxer.cpp:561 onAllTrackReady | stream: rtsp://192.168.10.80:8554/stream1 , codec info: H264[600/400/15] 
+2024-07-23 13:28:01.204 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream2 null null 0
+2024-07-23 13:28:01.209 W [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:694 onPlayResult_l | 0 rtsp play success
+2024-07-23 13:28:01.209 I [MediaServer] [1093736-event poller 0] PlayerProxy.cpp:133 operator() | play rtsp://192.168.10.80:8554/stream2 success
+2024-07-23 13:28:01.262 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注册:rtsp://__defaultVhost__/live/cam74d529ec48266
+2024-07-23 13:28:01.263 D [MediaServer] [1093736-event poller 0] MediaSink.cpp:162 emitAllTrackReady | All track ready use 53ms
+2024-07-23 13:28:01.263 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注册:fmp4://__defaultVhost__/live/cam74d529ec48266
+2024-07-23 13:28:01.263 I [MediaServer] [1093736-event poller 0] MultiMediaSourceMuxer.cpp:561 onAllTrackReady | stream: rtsp://192.168.10.80:8554/stream2 , codec info: H264[600/400/15] 
+2024-07-23 13:28:01.962 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream3 null null 0
+2024-07-23 13:28:01.965 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 0 rtsp play success
+2024-07-23 13:28:01.965 I [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:133 operator() | play rtsp://192.168.10.80:8554/stream3 success
+2024-07-23 13:28:01.997 I [MediaServer] [1093736-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注册:rtsp://__defaultVhost__/live/came6b0296e49826
+2024-07-23 13:28:01.998 D [MediaServer] [1093736-event poller 1] MediaSink.cpp:162 emitAllTrackReady | All track ready use 32ms
+2024-07-23 13:28:01.998 I [MediaServer] [1093736-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注册:fmp4://__defaultVhost__/live/came6b0296e49826
+2024-07-23 13:28:01.998 I [MediaServer] [1093736-event poller 1] MultiMediaSourceMuxer.cpp:561 onAllTrackReady | stream: rtsp://192.168.10.80:8554/stream3 , codec info: H264[600/400/15] 
+2024-07-23 13:29:31.020 W [MediaServer] [1093736-work poller 3] util.cpp:571 setThreadAffinity | pthread_setaffinity_np failed: resource temporarily unavailable
+2024-07-23 13:29:55.363 W [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:694 onPlayResult_l | 1 end of file
+2024-07-23 13:29:55.363 I [MediaServer] [1093736-event poller 3] MediaSource.cpp:517 emitEvent | 媒体注销:fmp4://__defaultVhost__/live/came68a60cf57418
+2024-07-23 13:29:55.363 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 1 end of file
+2024-07-23 13:29:55.363 I [MediaServer] [1093736-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注销:fmp4://__defaultVhost__/live/camb17b6fb360644
+2024-07-23 13:29:55.365 W [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:694 onPlayResult_l | 1 end of file
+2024-07-23 13:29:55.365 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:fmp4://__defaultVhost__/live/cam74d529ec48266
+2024-07-23 13:29:55.423 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 1 end of file
+2024-07-23 13:29:55.423 I [MediaServer] [1093736-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注销:fmp4://__defaultVhost__/live/came6b0296e49826
+2024-07-23 13:29:57.362 W [MediaServer] [1093736-event poller 3] PlayerProxy.cpp:237 operator() | 重试播放[0]:rtsp://192.168.10.80:8554/stream1
+2024-07-23 13:29:57.362 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[0]:rtsp://192.168.10.80:8554/stream0
+2024-07-23 13:29:57.362 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:29:57.362 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream0 null null 0
+2024-07-23 13:29:57.362 D [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream1 null null 0
+2024-07-23 13:29:57.362 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:rtsp://__defaultVhost__/live/camb17b6fb360644
+2024-07-23 13:29:57.362 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:29:57.362 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:29:57.363 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:rtsp://__defaultVhost__/live/came68a60cf57418
+2024-07-23 13:29:57.363 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:29:57.366 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:29:57.366 W [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:29:57.366 W [MediaServer] [1093736-event poller 0] PlayerProxy.cpp:237 operator() | 重试播放[0]:rtsp://192.168.10.80:8554/stream2
+2024-07-23 13:29:57.366 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:29:57.366 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:rtsp://__defaultVhost__/live/cam74d529ec48266
+2024-07-23 13:29:57.366 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:29:57.366 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream2 null null 0
+2024-07-23 13:29:57.368 W [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:29:57.423 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[0]:rtsp://192.168.10.80:8554/stream3
+2024-07-23 13:29:57.423 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:29:57.423 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream3 null null 0
+2024-07-23 13:29:57.423 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:rtsp://__defaultVhost__/live/came6b0296e49826
+2024-07-23 13:29:57.423 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:29:57.424 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:30:00.366 W [MediaServer] [1093736-event poller 3] PlayerProxy.cpp:237 operator() | 重试播放[1]:rtsp://192.168.10.80:8554/stream1
+2024-07-23 13:30:00.366 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[1]:rtsp://192.168.10.80:8554/stream0
+2024-07-23 13:30:00.366 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream0 null null 0
+2024-07-23 13:30:00.366 D [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream1 null null 0
+2024-07-23 13:30:00.366 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:00.366 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:00.366 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:00.366 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:00.367 W [MediaServer] [1093736-event poller 0] PlayerProxy.cpp:237 operator() | 重试播放[1]:rtsp://192.168.10.80:8554/stream2
+2024-07-23 13:30:00.367 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:00.367 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:00.367 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream2 null null 0
+2024-07-23 13:30:00.367 W [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:30:00.367 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:30:00.368 W [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:30:00.424 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[1]:rtsp://192.168.10.80:8554/stream3
+2024-07-23 13:30:00.424 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:00.424 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:00.424 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream3 null null 0
+2024-07-23 13:30:00.426 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:30:06.368 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[2]:rtsp://192.168.10.80:8554/stream0
+2024-07-23 13:30:06.368 W [MediaServer] [1093736-event poller 0] PlayerProxy.cpp:237 operator() | 重试播放[2]:rtsp://192.168.10.80:8554/stream2
+2024-07-23 13:30:06.368 W [MediaServer] [1093736-event poller 3] PlayerProxy.cpp:237 operator() | 重试播放[2]:rtsp://192.168.10.80:8554/stream1
+2024-07-23 13:30:06.368 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:06.368 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:06.368 D [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream1 null null 0
+2024-07-23 13:30:06.368 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream0 null null 0
+2024-07-23 13:30:06.368 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream2 null null 0
+2024-07-23 13:30:06.368 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:06.368 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:06.368 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:06.368 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:06.369 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:30:06.369 W [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:30:06.369 W [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:30:06.425 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[2]:rtsp://192.168.10.80:8554/stream3
+2024-07-23 13:30:06.425 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:06.425 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:06.425 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream3 null null 0
+2024-07-23 13:30:06.427 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:30:15.370 W [MediaServer] [1093736-event poller 0] PlayerProxy.cpp:237 operator() | 重试播放[3]:rtsp://192.168.10.80:8554/stream2
+2024-07-23 13:30:15.370 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[3]:rtsp://192.168.10.80:8554/stream0
+2024-07-23 13:30:15.370 W [MediaServer] [1093736-event poller 3] PlayerProxy.cpp:237 operator() | 重试播放[3]:rtsp://192.168.10.80:8554/stream1
+2024-07-23 13:30:15.370 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:15.370 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:15.370 D [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream1 null null 0
+2024-07-23 13:30:15.370 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream0 null null 0
+2024-07-23 13:30:15.370 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream2 null null 0
+2024-07-23 13:30:15.370 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:15.370 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:15.370 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:15.370 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:15.371 W [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:30:15.371 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:30:15.371 W [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:30:15.427 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[3]:rtsp://192.168.10.80:8554/stream3
+2024-07-23 13:30:15.427 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:15.427 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream3 null null 0
+2024-07-23 13:30:15.427 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:15.430 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:30:27.371 W [MediaServer] [1093736-event poller 0] PlayerProxy.cpp:237 operator() | 重试播放[4]:rtsp://192.168.10.80:8554/stream2
+2024-07-23 13:30:27.371 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[4]:rtsp://192.168.10.80:8554/stream0
+2024-07-23 13:30:27.372 W [MediaServer] [1093736-event poller 3] PlayerProxy.cpp:237 operator() | 重试播放[4]:rtsp://192.168.10.80:8554/stream1
+2024-07-23 13:30:27.372 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:27.372 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:27.372 D [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream1 null null 0
+2024-07-23 13:30:27.372 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream0 null null 0
+2024-07-23 13:30:27.372 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream2 null null 0
+2024-07-23 13:30:27.372 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:27.372 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:27.372 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:27.372 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:27.373 W [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:30:27.373 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:30:27.373 W [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:30:27.430 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[4]:rtsp://192.168.10.80:8554/stream3
+2024-07-23 13:30:27.430 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:27.430 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:27.430 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream3 null null 0
+2024-07-23 13:30:27.431 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:30:42.374 W [MediaServer] [1093736-event poller 0] PlayerProxy.cpp:237 operator() | 重试播放[5]:rtsp://192.168.10.80:8554/stream2
+2024-07-23 13:30:42.374 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[5]:rtsp://192.168.10.80:8554/stream0
+2024-07-23 13:30:42.374 W [MediaServer] [1093736-event poller 3] PlayerProxy.cpp:237 operator() | 重试播放[5]:rtsp://192.168.10.80:8554/stream1
+2024-07-23 13:30:42.374 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:42.374 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:42.374 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream0 null null 0
+2024-07-23 13:30:42.374 D [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream1 null null 0
+2024-07-23 13:30:42.374 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream2 null null 0
+2024-07-23 13:30:42.374 W [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:694 onPlayResult_l | 3 connection refused
+2024-07-23 13:30:42.374 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 3 connection refused
+2024-07-23 13:30:42.374 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:42.374 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:42.374 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:42.374 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:42.374 W [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:694 onPlayResult_l | 3 connection refused
+2024-07-23 13:30:42.431 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[5]:rtsp://192.168.10.80:8554/stream3
+2024-07-23 13:30:42.431 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream3 null null 0
+2024-07-23 13:30:42.431 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:30:42.431 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:30:42.431 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 3 connection refused
+2024-07-23 13:31:00.374 W [MediaServer] [1093736-event poller 3] PlayerProxy.cpp:237 operator() | 重试播放[6]:rtsp://192.168.10.80:8554/stream1
+2024-07-23 13:31:00.374 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[6]:rtsp://192.168.10.80:8554/stream0
+2024-07-23 13:31:00.374 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:31:00.374 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:31:00.374 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream0 null null 0
+2024-07-23 13:31:00.374 D [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream1 null null 0
+2024-07-23 13:31:00.374 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:31:00.374 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:31:00.374 W [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:694 onPlayResult_l | 3 connection refused
+2024-07-23 13:31:00.374 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 3 connection refused
+2024-07-23 13:31:00.375 W [MediaServer] [1093736-event poller 0] PlayerProxy.cpp:237 operator() | 重试播放[6]:rtsp://192.168.10.80:8554/stream2
+2024-07-23 13:31:00.375 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:31:00.375 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:31:00.375 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream2 null null 0
+2024-07-23 13:31:00.375 W [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:694 onPlayResult_l | 3 connection refused
+2024-07-23 13:31:00.432 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[6]:rtsp://192.168.10.80:8554/stream3
+2024-07-23 13:31:00.432 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:31:00.432 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:31:00.432 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream3 null null 0
+2024-07-23 13:31:00.432 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 3 connection refused
+2024-07-23 13:31:21.374 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[7]:rtsp://192.168.10.80:8554/stream0
+2024-07-23 13:31:21.374 W [MediaServer] [1093736-event poller 3] PlayerProxy.cpp:237 operator() | 重试播放[7]:rtsp://192.168.10.80:8554/stream1
+2024-07-23 13:31:21.374 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:31:21.374 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:31:21.374 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream0 null null 0
+2024-07-23 13:31:21.374 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:31:21.374 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:31:21.374 D [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream1 null null 0
+2024-07-23 13:31:21.374 W [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:694 onPlayResult_l | 3 connection refused
+2024-07-23 13:31:21.374 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 3 connection refused
+2024-07-23 13:31:21.375 W [MediaServer] [1093736-event poller 0] PlayerProxy.cpp:237 operator() | 重试播放[7]:rtsp://192.168.10.80:8554/stream2
+2024-07-23 13:31:21.375 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:31:21.375 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:31:21.375 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream2 null null 0
+2024-07-23 13:31:21.375 W [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:694 onPlayResult_l | 3 connection refused
+2024-07-23 13:31:21.432 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[7]:rtsp://192.168.10.80:8554/stream3
+2024-07-23 13:31:21.432 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream3 null null 0
+2024-07-23 13:31:21.432 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:31:21.432 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:31:21.432 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 3 connection refused
+2024-07-23 13:31:45.374 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[8]:rtsp://192.168.10.80:8554/stream0
+2024-07-23 13:31:45.374 W [MediaServer] [1093736-event poller 3] PlayerProxy.cpp:237 operator() | 重试播放[8]:rtsp://192.168.10.80:8554/stream1
+2024-07-23 13:31:45.374 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:31:45.374 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:31:45.375 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream0 null null 0
+2024-07-23 13:31:45.375 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:31:45.375 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:31:45.375 D [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream1 null null 0
+2024-07-23 13:31:45.376 W [MediaServer] [1093736-event poller 0] PlayerProxy.cpp:237 operator() | 重试播放[8]:rtsp://192.168.10.80:8554/stream2
+2024-07-23 13:31:45.376 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:31:45.376 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:31:45.376 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream2 null null 0
+2024-07-23 13:31:45.378 W [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:694 onPlayResult_l | 0 rtsp play success
+2024-07-23 13:31:45.378 I [MediaServer] [1093736-event poller 3] PlayerProxy.cpp:133 operator() | play rtsp://192.168.10.80:8554/stream1 success
+2024-07-23 13:31:45.378 W [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:694 onPlayResult_l | 0 rtsp play success
+2024-07-23 13:31:45.378 I [MediaServer] [1093736-event poller 0] PlayerProxy.cpp:133 operator() | play rtsp://192.168.10.80:8554/stream2 success
+2024-07-23 13:31:45.380 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 0 rtsp play success
+2024-07-23 13:31:45.380 I [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:133 operator() | play rtsp://192.168.10.80:8554/stream0 success
+2024-07-23 13:31:45.433 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[8]:rtsp://192.168.10.80:8554/stream3
+2024-07-23 13:31:45.433 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream3 null null 0
+2024-07-23 13:31:45.433 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:31:45.433 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:31:45.435 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 0 rtsp play success
+2024-07-23 13:31:45.435 I [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:133 operator() | play rtsp://192.168.10.80:8554/stream3 success
+2024-07-23 13:31:49.175 D [MediaServer] [1093736-event poller 1] MediaSink.cpp:162 emitAllTrackReady | All track ready use 3795ms
+2024-07-23 13:31:49.175 I [MediaServer] [1093736-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注册:fmp4://__defaultVhost__/live/camb17b6fb360644
+2024-07-23 13:31:49.175 I [MediaServer] [1093736-event poller 1] MultiMediaSourceMuxer.cpp:561 onAllTrackReady | stream: rtsp://192.168.10.80:8554/stream0 , codec info: H264[600/400/15] 
+2024-07-23 13:31:49.175 I [MediaServer] [1093736-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注册:rtsp://__defaultVhost__/live/camb17b6fb360644
+2024-07-23 13:31:49.302 D [MediaServer] [1093736-event poller 3] MediaSink.cpp:162 emitAllTrackReady | All track ready use 3924ms
+2024-07-23 13:31:49.302 I [MediaServer] [1093736-event poller 3] MediaSource.cpp:517 emitEvent | 媒体注册:fmp4://__defaultVhost__/live/came68a60cf57418
+2024-07-23 13:31:49.302 I [MediaServer] [1093736-event poller 3] MultiMediaSourceMuxer.cpp:561 onAllTrackReady | stream: rtsp://192.168.10.80:8554/stream1 , codec info: H264[600/400/15] 
+2024-07-23 13:31:49.302 I [MediaServer] [1093736-event poller 3] MediaSource.cpp:517 emitEvent | 媒体注册:rtsp://__defaultVhost__/live/came68a60cf57418
+2024-07-23 13:31:49.390 D [MediaServer] [1093736-event poller 1] MediaSink.cpp:162 emitAllTrackReady | All track ready use 3955ms
+2024-07-23 13:31:49.390 I [MediaServer] [1093736-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注册:fmp4://__defaultVhost__/live/came6b0296e49826
+2024-07-23 13:31:49.391 I [MediaServer] [1093736-event poller 1] MultiMediaSourceMuxer.cpp:561 onAllTrackReady | stream: rtsp://192.168.10.80:8554/stream3 , codec info: H264[600/400/15] 
+2024-07-23 13:31:49.391 I [MediaServer] [1093736-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注册:rtsp://__defaultVhost__/live/came6b0296e49826
+2024-07-23 13:31:49.394 D [MediaServer] [1093736-event poller 0] MediaSink.cpp:162 emitAllTrackReady | All track ready use 4017ms
+2024-07-23 13:31:49.394 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注册:fmp4://__defaultVhost__/live/cam74d529ec48266
+2024-07-23 13:31:49.395 I [MediaServer] [1093736-event poller 0] MultiMediaSourceMuxer.cpp:561 onAllTrackReady | stream: rtsp://192.168.10.80:8554/stream2 , codec info: H264[600/400/15] 
+2024-07-23 13:31:49.395 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注册:rtsp://__defaultVhost__/live/cam74d529ec48266
+2024-07-23 13:33:19.990 W [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:694 onPlayResult_l | 1 end of file
+2024-07-23 13:33:19.990 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 1 end of file
+2024-07-23 13:33:19.990 I [MediaServer] [1093736-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注销:fmp4://__defaultVhost__/live/came6b0296e49826
+2024-07-23 13:33:19.990 I [MediaServer] [1093736-event poller 3] MediaSource.cpp:517 emitEvent | 媒体注销:fmp4://__defaultVhost__/live/came68a60cf57418
+2024-07-23 13:33:20.056 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 1 end of file
+2024-07-23 13:33:20.056 I [MediaServer] [1093736-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注销:fmp4://__defaultVhost__/live/camb17b6fb360644
+2024-07-23 13:33:20.056 W [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:694 onPlayResult_l | 1 end of file
+2024-07-23 13:33:20.056 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:fmp4://__defaultVhost__/live/cam74d529ec48266
+2024-07-23 13:33:21.991 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[0]:rtsp://192.168.10.80:8554/stream3
+2024-07-23 13:33:21.991 W [MediaServer] [1093736-event poller 3] PlayerProxy.cpp:237 operator() | 重试播放[0]:rtsp://192.168.10.80:8554/stream1
+2024-07-23 13:33:21.991 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:33:21.991 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream3 null null 0
+2024-07-23 13:33:21.991 D [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream1 null null 0
+2024-07-23 13:33:21.991 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:rtsp://__defaultVhost__/live/came6b0296e49826
+2024-07-23 13:33:21.991 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:33:21.991 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:33:21.991 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:rtsp://__defaultVhost__/live/came68a60cf57418
+2024-07-23 13:33:21.991 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:33:21.992 W [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:33:21.992 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:33:22.056 W [MediaServer] [1093736-event poller 0] PlayerProxy.cpp:237 operator() | 重试播放[0]:rtsp://192.168.10.80:8554/stream2
+2024-07-23 13:33:22.056 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:33:22.056 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[0]:rtsp://192.168.10.80:8554/stream0
+2024-07-23 13:33:22.056 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:rtsp://__defaultVhost__/live/cam74d529ec48266
+2024-07-23 13:33:22.056 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:33:22.056 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream0 null null 0
+2024-07-23 13:33:22.057 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream2 null null 0
+2024-07-23 13:33:22.057 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:33:22.057 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:rtsp://__defaultVhost__/live/camb17b6fb360644
+2024-07-23 13:33:22.057 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:33:22.059 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:33:22.059 W [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:33:24.992 W [MediaServer] [1093736-event poller 3] PlayerProxy.cpp:237 operator() | 重试播放[1]:rtsp://192.168.10.80:8554/stream1
+2024-07-23 13:33:24.992 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[1]:rtsp://192.168.10.80:8554/stream3
+2024-07-23 13:33:24.993 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:33:24.993 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream3 null null 0
+2024-07-23 13:33:24.993 D [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream1 null null 0
+2024-07-23 13:33:24.993 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:33:24.993 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:33:24.993 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:33:24.995 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 0 rtsp play success
+2024-07-23 13:33:24.995 I [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:133 operator() | play rtsp://192.168.10.80:8554/stream3 success
+2024-07-23 13:33:24.995 W [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:694 onPlayResult_l | 0 rtsp play success
+2024-07-23 13:33:24.995 I [MediaServer] [1093736-event poller 3] PlayerProxy.cpp:133 operator() | play rtsp://192.168.10.80:8554/stream1 success
+2024-07-23 13:33:25.059 W [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:237 operator() | 重试播放[1]:rtsp://192.168.10.80:8554/stream0
+2024-07-23 13:33:25.059 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:33:25.059 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:33:25.059 D [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream0 null null 0
+2024-07-23 13:33:25.060 W [MediaServer] [1093736-event poller 0] PlayerProxy.cpp:237 operator() | 重试播放[1]:rtsp://192.168.10.80:8554/stream2
+2024-07-23 13:33:25.060 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:33:25.060 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:33:25.060 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream2 null null 0
+2024-07-23 13:33:25.061 W [MediaServer] [1093736-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 0 rtsp play success
+2024-07-23 13:33:25.061 I [MediaServer] [1093736-event poller 1] PlayerProxy.cpp:133 operator() | play rtsp://192.168.10.80:8554/stream0 success
+2024-07-23 13:33:25.062 W [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:694 onPlayResult_l | 0 rtsp play success
+2024-07-23 13:33:25.062 I [MediaServer] [1093736-event poller 0] PlayerProxy.cpp:133 operator() | play rtsp://192.168.10.80:8554/stream2 success
+2024-07-23 13:33:28.696 D [MediaServer] [1093736-event poller 0] MediaSink.cpp:162 emitAllTrackReady | All track ready use 3634ms
+2024-07-23 13:33:28.696 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注册:fmp4://__defaultVhost__/live/cam74d529ec48266
+2024-07-23 13:33:28.696 I [MediaServer] [1093736-event poller 0] MultiMediaSourceMuxer.cpp:561 onAllTrackReady | stream: rtsp://192.168.10.80:8554/stream2 , codec info: H264[600/400/15] 
+2024-07-23 13:33:28.697 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注册:rtsp://__defaultVhost__/live/cam74d529ec48266
+2024-07-23 13:33:28.739 D [MediaServer] [1093736-event poller 3] MediaSink.cpp:162 emitAllTrackReady | All track ready use 3745ms
+2024-07-23 13:33:28.739 I [MediaServer] [1093736-event poller 3] MediaSource.cpp:517 emitEvent | 媒体注册:fmp4://__defaultVhost__/live/came68a60cf57418
+2024-07-23 13:33:28.739 I [MediaServer] [1093736-event poller 3] MultiMediaSourceMuxer.cpp:561 onAllTrackReady | stream: rtsp://192.168.10.80:8554/stream1 , codec info: H264[600/400/15] 
+2024-07-23 13:33:28.739 I [MediaServer] [1093736-event poller 3] MediaSource.cpp:517 emitEvent | 媒体注册:rtsp://__defaultVhost__/live/came68a60cf57418
+2024-07-23 13:33:28.789 D [MediaServer] [1093736-event poller 1] MediaSink.cpp:162 emitAllTrackReady | All track ready use 3795ms
+2024-07-23 13:33:28.789 I [MediaServer] [1093736-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注册:fmp4://__defaultVhost__/live/came6b0296e49826
+2024-07-23 13:33:28.790 I [MediaServer] [1093736-event poller 1] MultiMediaSourceMuxer.cpp:561 onAllTrackReady | stream: rtsp://192.168.10.80:8554/stream3 , codec info: H264[600/400/15] 
+2024-07-23 13:33:28.790 I [MediaServer] [1093736-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注册:rtsp://__defaultVhost__/live/came6b0296e49826
+2024-07-23 13:33:28.975 D [MediaServer] [1093736-event poller 1] MediaSink.cpp:162 emitAllTrackReady | All track ready use 3913ms
+2024-07-23 13:33:28.975 I [MediaServer] [1093736-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注册:fmp4://__defaultVhost__/live/camb17b6fb360644
+2024-07-23 13:33:28.975 I [MediaServer] [1093736-event poller 1] MultiMediaSourceMuxer.cpp:561 onAllTrackReady | stream: rtsp://192.168.10.80:8554/stream0 , codec info: H264[600/400/15] 
+2024-07-23 13:33:28.975 I [MediaServer] [1093736-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注册:rtsp://__defaultVhost__/live/camb17b6fb360644
+2024-07-23 13:34:16.327 W [MediaServer] [1093736-event poller 3] HttpSession.cpp:157 onError | 41-46(192.168.10.48:61932) FLV/TS/FMP4播放器(__defaultVhost__/live/camb17b6fb360644)断开:1(end of file),耗时(s):17
+2024-07-23 13:34:17.794 W [MediaServer] [1093736-event poller 3] HttpSession.cpp:157 onError | 42-46(192.168.10.48:61935) FLV/TS/FMP4播放器(__defaultVhost__/live/camb17b6fb360644)断开:1(end of file),耗时(s):1
+2024-07-23 13:34:35.847 W [MediaServer] [1093736-event poller 3] HttpSession.cpp:157 onError | 38-29(192.168.10.48:61929) FLV/TS/FMP4播放器(__defaultVhost__/live/cam74d529ec48266)断开:1(end of file),耗时(s):36
+2024-07-23 13:34:35.853 W [MediaServer] [1093736-event poller 1] HttpSession.cpp:157 onError | 44-29(192.168.10.48:61939) FLV/TS/FMP4播放器(__defaultVhost__/live/cam74d529ec48266)断开:1(end of file),耗时(s):0
+2024-07-23 13:34:36.171 W [MediaServer] [1093736-event poller 0] HttpSession.cpp:157 onError | 43-46(192.168.10.48:61936) FLV/TS/FMP4播放器(__defaultVhost__/live/camb17b6fb360644)断开:1(end of file),耗时(s):18
+2024-07-23 13:37:25.923 W [MediaServer] [1093736-event poller 0] HttpSession.cpp:157 onError | 39-44(192.168.10.48:61930) FLV/TS/FMP4播放器(__defaultVhost__/live/came68a60cf57418)断开:1(end of file),耗时(s):207
+2024-07-23 13:37:29.700 W [MediaServer] [1093736-event poller 0] HttpSession.cpp:157 onError | 47-44(192.168.10.48:61973) FLV/TS/FMP4播放器(__defaultVhost__/live/came68a60cf57418)断开:1(end of file),耗时(s):3
+2024-07-23 13:37:34.820 W [MediaServer] [1093736-event poller 2] HttpSession.cpp:157 onError | 45-29(192.168.10.48:61950) FLV/TS/FMP4播放器(__defaultVhost__/live/cam74d529ec48266)断开:1(end of file),耗时(s):134
+2024-07-23 13:37:34.821 W [MediaServer] [1093736-event poller 1] HttpSession.cpp:157 onError | 40-45(192.168.10.48:61931) FLV/TS/FMP4播放器(__defaultVhost__/live/came6b0296e49826)断开:1(end of file),耗时(s):215
+2024-07-23 13:37:34.822 W [MediaServer] [1093736-event poller 3] HttpSession.cpp:157 onError | 46-46(192.168.10.48:61952) FLV/TS/FMP4播放器(__defaultVhost__/live/camb17b6fb360644)断开:1(end of file),耗时(s):124
+2024-07-23 13:37:55.206 W [MediaServer] [1093736-event poller 2] HttpSession.cpp:157 onError | 57-45(192.168.10.48:61981) FLV/TS/FMP4播放器(__defaultVhost__/live/came6b0296e49826)断开:1(end of file),耗时(s):13
+2024-07-23 13:37:55.206 W [MediaServer] [1093736-event poller 1] HttpSession.cpp:157 onError | 56-44(192.168.10.48:61980) FLV/TS/FMP4播放器(__defaultVhost__/live/came68a60cf57418)断开:1(end of file),耗时(s):13
+2024-07-23 13:37:55.207 W [MediaServer] [1093736-event poller 0] HttpSession.cpp:157 onError | 55-29(192.168.10.48:61979) FLV/TS/FMP4播放器(__defaultVhost__/live/cam74d529ec48266)断开:1(end of file),耗时(s):13
+2024-07-23 13:37:55.208 W [MediaServer] [1093736-event poller 3] HttpSession.cpp:157 onError | 58-46(192.168.10.48:61982) FLV/TS/FMP4播放器(__defaultVhost__/live/camb17b6fb360644)断开:1(end of file),耗时(s):13
+2024-07-23 13:37:58.270 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:37:58.271 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:fmp4://__defaultVhost__/live/came6b0296e49826
+2024-07-23 13:37:58.271 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:rtsp://__defaultVhost__/live/came6b0296e49826
+2024-07-23 13:37:58.271 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:37:58.941 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:37:58.941 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:fmp4://__defaultVhost__/live/cam74d529ec48266
+2024-07-23 13:37:58.941 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:37:58.941 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:rtsp://__defaultVhost__/live/cam74d529ec48266
+2024-07-23 13:37:59.617 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:37:59.617 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:fmp4://__defaultVhost__/live/came68a60cf57418
+2024-07-23 13:37:59.617 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:rtsp://__defaultVhost__/live/came68a60cf57418
+2024-07-23 13:37:59.617 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:38:00.332 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:38:00.332 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:fmp4://__defaultVhost__/live/camb17b6fb360644
+2024-07-23 13:38:00.333 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:rtsp://__defaultVhost__/live/camb17b6fb360644
+2024-07-23 13:38:00.333 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:38:10.817 D [MediaServer] [1093736-event poller 2] RtspPlayer.cpp:88 play | rtsp://192.168.10.80:8554/stream3 null null 0
+2024-07-23 13:38:10.851 W [MediaServer] [1093736-event poller 2] RtspPlayer.cpp:694 onPlayResult_l | 255 DESCRIBE:404 Not Found
+2024-07-23 13:38:10.851 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:38:10.851 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:38:16.865 D [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:88 play | rtsp://192.168.10.198:554/Streaming/Channels/101 admin retoo2020 0
+2024-07-23 13:38:16.946 W [MediaServer] [1093736-event poller 3] RtspPlayer.cpp:694 onPlayResult_l | 0 rtsp play success
+2024-07-23 13:38:16.946 I [MediaServer] [1093736-event poller 3] MediaSink.cpp:30 addTrack | Audio disabled, audio track ignored
+2024-07-23 13:38:16.946 I [MediaServer] [1093736-event poller 3] PlayerProxy.cpp:133 operator() | play rtsp://admin:retoo2020@192.168.10.198:554/Streaming/Channels/101 success
+2024-07-23 13:38:16.982 I [MediaServer] [1093736-event poller 3] MediaSource.cpp:517 emitEvent | 媒体注册:rtsp://__defaultVhost__/live/cam304f234237062
+2024-07-23 13:38:16.982 D [MediaServer] [1093736-event poller 3] MediaSink.cpp:162 emitAllTrackReady | All track ready use 36ms
+2024-07-23 13:38:16.982 I [MediaServer] [1093736-event poller 3] MediaSource.cpp:517 emitEvent | 媒体注册:fmp4://__defaultVhost__/live/cam304f234237062
+2024-07-23 13:38:16.982 I [MediaServer] [1093736-event poller 3] MultiMediaSourceMuxer.cpp:561 onAllTrackReady | stream: rtsp://admin:retoo2020@192.168.10.198:554/Streaming/Channels/101 , codec info: H264[1920/1080/25] 
+2024-07-23 13:39:08.155 W [MediaServer] [1093736-event poller 0] HttpSession.cpp:157 onError | 75-22(192.168.10.48:61989) FLV/TS/FMP4播放器(__defaultVhost__/live/cam304f234237062)断开:1(end of file),耗时(s):47
+2024-07-23 13:39:17.059 I [MediaServer] [1093736-MediaServer] main.cpp:417 operator() | SIGINT:exit
+2024-07-23 13:39:17.059 I [MediaServer] [1093736-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 10000
+2024-07-23 13:39:17.059 I [MediaServer] [1093736-MediaServer] UdpServer.cpp:63 ~UdpServer | Close udp server [::]: 10000
+2024-07-23 13:39:17.059 I [MediaServer] [1093736-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 443
+2024-07-23 13:39:17.059 I [MediaServer] [1093736-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9002
+2024-07-23 13:39:17.059 I [MediaServer] [1093736-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 332
+2024-07-23 13:39:17.059 I [MediaServer] [1093736-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9554
+2024-07-23 13:39:17.059 I [MediaServer] [1093736-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9000
+2024-07-23 13:39:17.060 I [MediaServer] [1093736-MediaServer] main.cpp:438 start_main | 程序退出中,请等待...
+2024-07-23 13:39:17.060 D [MediaServer] [1093736-event poller 0] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-23 13:39:17.062 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:fmp4://__defaultVhost__/live/cam304f234237062
+2024-07-23 13:39:17.062 I [MediaServer] [1093736-event poller 0] MediaSource.cpp:517 emitEvent | 媒体注销:rtsp://__defaultVhost__/live/cam304f234237062
+2024-07-23 13:39:17.062 D [MediaServer] [1093736-event poller 0] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-23 13:39:18.060 I [MediaServer] [1093736-MediaServer] main.cpp:440 start_main | 程序退出完毕!
+2024-07-23 13:39:18.060 I [MediaServer] [1093736-MediaServer] EventPoller.cpp:108 ~EventPoller | work poller 0
+2024-07-23 13:39:18.060 I [MediaServer] [1093736-MediaServer] EventPoller.cpp:108 ~EventPoller | work poller 1
+2024-07-23 13:39:18.060 I [MediaServer] [1093736-MediaServer] EventPoller.cpp:108 ~EventPoller | work poller 2
+2024-07-23 13:39:18.060 I [MediaServer] [1093736-MediaServer] EventPoller.cpp:108 ~EventPoller | work poller 3
+2024-07-23 13:39:18.061 I [MediaServer] [1093736-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 0
+2024-07-23 13:39:18.061 I [MediaServer] [1093736-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 1
+2024-07-23 13:39:18.062 I [MediaServer] [1093736-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 2
+2024-07-23 13:39:18.062 I [MediaServer] [1093736-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 3
+2024-07-23 13:39:18.062 I [MediaServer] [1093736-MediaServer] logger.cpp:91 ~Logger | 

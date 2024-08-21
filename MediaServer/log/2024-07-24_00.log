@@ -1,0 +1,251 @@
+2024-07-24 14:01:52.330 I [MediaServer] [1293721-MediaServer] System.cpp:177 systemSetup | core文件大小设置为:18446744073709551615
+2024-07-24 14:01:52.330 I [MediaServer] [1293721-MediaServer] System.cpp:186 systemSetup | 文件最大描述符个数设置为:1048576
+2024-07-24 14:01:52.331 I [MediaServer] [1293721-MediaServer] main.cpp:258 start_main | ZLMediaKit(git hash:/,branch:,build time:2024-07-12T11:48:44)
+2024-07-24 14:01:52.331 D [MediaServer] [1293721-stamp thread] util.cpp:366 operator() | Stamp thread started
+2024-07-24 14:01:52.333 W [MediaServer] [1293721-event poller 3] util.cpp:571 setThreadAffinity | pthread_setaffinity_np failed: resource temporarily unavailable
+2024-07-24 14:01:52.334 I [MediaServer] [1293721-MediaServer] EventPoller.cpp:587 EventPollerPool | EventPoller created size: 4
+2024-07-24 14:01:52.335 I [MediaServer] [1293721-MediaServer] main.cpp:361 start_main | 已启动http api 接口
+2024-07-24 14:01:52.336 I [MediaServer] [1293721-MediaServer] main.cpp:363 start_main | 已启动http hook 接口
+2024-07-24 14:01:52.336 I [MediaServer] [1293721-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9554
+2024-07-24 14:01:52.336 I [MediaServer] [1293721-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 332
+2024-07-24 14:01:52.336 I [MediaServer] [1293721-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9002
+2024-07-24 14:01:52.336 I [MediaServer] [1293721-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 443
+2024-07-24 14:01:52.336 I [MediaServer] [1293721-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9000
+2024-07-24 14:01:52.338 I [MediaServer] [1293721-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 10000
+2024-07-24 14:01:52.339 I [MediaServer] [1293721-MediaServer] UdpServer.cpp:120 start_l | UDP server bind to [::]: 10000
+2024-07-24 14:05:15.312 I [MediaServer] [1293721-MediaServer] main.cpp:417 operator() | SIGINT:exit
+2024-07-24 14:05:15.312 I [MediaServer] [1293721-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 10000
+2024-07-24 14:05:15.312 I [MediaServer] [1293721-MediaServer] UdpServer.cpp:63 ~UdpServer | Close udp server [::]: 10000
+2024-07-24 14:05:15.312 I [MediaServer] [1293721-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 443
+2024-07-24 14:05:15.312 I [MediaServer] [1293721-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9002
+2024-07-24 14:05:15.312 I [MediaServer] [1293721-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 332
+2024-07-24 14:05:15.312 I [MediaServer] [1293721-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9554
+2024-07-24 14:05:15.312 I [MediaServer] [1293721-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9000
+2024-07-24 14:05:15.313 I [MediaServer] [1293721-MediaServer] main.cpp:438 start_main | 程序退出中,请等待...
+2024-07-24 14:05:16.313 I [MediaServer] [1293721-MediaServer] main.cpp:440 start_main | 程序退出完毕!
+2024-07-24 14:05:16.317 I [MediaServer] [1293721-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 0
+2024-07-24 14:05:16.317 I [MediaServer] [1293721-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 1
+2024-07-24 14:05:16.317 I [MediaServer] [1293721-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 2
+2024-07-24 14:05:16.317 I [MediaServer] [1293721-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 3
+2024-07-24 14:05:16.320 I [MediaServer] [1293721-MediaServer] logger.cpp:91 ~Logger | 
+2024-07-24 14:05:17.864 I [MediaServer] [1300930-MediaServer] System.cpp:177 systemSetup | core文件大小设置为:18446744073709551615
+2024-07-24 14:05:17.864 I [MediaServer] [1300930-MediaServer] System.cpp:186 systemSetup | 文件最大描述符个数设置为:1048576
+2024-07-24 14:05:17.864 I [MediaServer] [1300930-MediaServer] main.cpp:258 start_main | ZLMediaKit(git hash:/,branch:,build time:2024-07-12T11:48:44)
+2024-07-24 14:05:17.864 D [MediaServer] [1300930-stamp thread] util.cpp:366 operator() | Stamp thread started
+2024-07-24 14:05:17.865 W [MediaServer] [1300930-event poller 3] util.cpp:571 setThreadAffinity | pthread_setaffinity_np failed: resource temporarily unavailable
+2024-07-24 14:05:17.865 I [MediaServer] [1300930-MediaServer] EventPoller.cpp:587 EventPollerPool | EventPoller created size: 4
+2024-07-24 14:05:17.865 I [MediaServer] [1300930-MediaServer] main.cpp:361 start_main | 已启动http api 接口
+2024-07-24 14:05:17.865 I [MediaServer] [1300930-MediaServer] main.cpp:363 start_main | 已启动http hook 接口
+2024-07-24 14:05:17.866 I [MediaServer] [1300930-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9554
+2024-07-24 14:05:17.866 I [MediaServer] [1300930-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 332
+2024-07-24 14:05:17.866 I [MediaServer] [1300930-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9002
+2024-07-24 14:05:17.866 I [MediaServer] [1300930-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 443
+2024-07-24 14:05:17.867 I [MediaServer] [1300930-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9000
+2024-07-24 14:05:17.867 I [MediaServer] [1300930-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 10000
+2024-07-24 14:05:17.867 I [MediaServer] [1300930-MediaServer] UdpServer.cpp:120 start_l | UDP server bind to [::]: 10000
+2024-07-24 14:06:28.863 I [MediaServer] [1300930-MediaServer] main.cpp:417 operator() | SIGINT:exit
+2024-07-24 14:06:28.863 I [MediaServer] [1300930-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 10000
+2024-07-24 14:06:28.863 I [MediaServer] [1300930-MediaServer] UdpServer.cpp:63 ~UdpServer | Close udp server [::]: 10000
+2024-07-24 14:06:28.863 I [MediaServer] [1300930-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 443
+2024-07-24 14:06:28.863 I [MediaServer] [1300930-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9002
+2024-07-24 14:06:28.864 I [MediaServer] [1300930-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 332
+2024-07-24 14:06:28.864 I [MediaServer] [1300930-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9554
+2024-07-24 14:06:28.864 I [MediaServer] [1300930-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9000
+2024-07-24 14:06:28.864 I [MediaServer] [1300930-MediaServer] main.cpp:438 start_main | 程序退出中,请等待...
+2024-07-24 14:06:29.864 I [MediaServer] [1300930-MediaServer] main.cpp:440 start_main | 程序退出完毕!
+2024-07-24 14:06:29.864 I [MediaServer] [1300930-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 0
+2024-07-24 14:06:29.864 I [MediaServer] [1300930-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 1
+2024-07-24 14:06:29.864 I [MediaServer] [1300930-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 2
+2024-07-24 14:06:29.864 I [MediaServer] [1300930-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 3
+2024-07-24 14:06:29.865 I [MediaServer] [1300930-MediaServer] logger.cpp:91 ~Logger | 
+2024-07-24 14:06:32.045 I [MediaServer] [1303000-MediaServer] System.cpp:177 systemSetup | core文件大小设置为:18446744073709551615
+2024-07-24 14:06:32.045 I [MediaServer] [1303000-MediaServer] System.cpp:186 systemSetup | 文件最大描述符个数设置为:1048576
+2024-07-24 14:06:32.045 I [MediaServer] [1303000-MediaServer] main.cpp:258 start_main | ZLMediaKit(git hash:/,branch:,build time:2024-07-12T11:48:44)
+2024-07-24 14:06:32.045 D [MediaServer] [1303000-stamp thread] util.cpp:366 operator() | Stamp thread started
+2024-07-24 14:06:32.046 W [MediaServer] [1303000-event poller 3] util.cpp:571 setThreadAffinity | pthread_setaffinity_np failed: resource temporarily unavailable
+2024-07-24 14:06:32.046 I [MediaServer] [1303000-MediaServer] EventPoller.cpp:587 EventPollerPool | EventPoller created size: 4
+2024-07-24 14:06:32.046 I [MediaServer] [1303000-MediaServer] main.cpp:361 start_main | 已启动http api 接口
+2024-07-24 14:06:32.046 I [MediaServer] [1303000-MediaServer] main.cpp:363 start_main | 已启动http hook 接口
+2024-07-24 14:06:32.046 I [MediaServer] [1303000-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9554
+2024-07-24 14:06:32.046 I [MediaServer] [1303000-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 332
+2024-07-24 14:06:32.046 I [MediaServer] [1303000-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9002
+2024-07-24 14:06:32.046 I [MediaServer] [1303000-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 443
+2024-07-24 14:06:32.047 I [MediaServer] [1303000-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9000
+2024-07-24 14:06:32.047 I [MediaServer] [1303000-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 10000
+2024-07-24 14:06:32.047 I [MediaServer] [1303000-MediaServer] UdpServer.cpp:120 start_l | UDP server bind to [::]: 10000
+2024-07-24 14:08:01.879 I [MediaServer] [1303000-MediaServer] main.cpp:417 operator() | SIGINT:exit
+2024-07-24 14:08:01.879 I [MediaServer] [1303000-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 10000
+2024-07-24 14:08:01.879 I [MediaServer] [1303000-MediaServer] UdpServer.cpp:63 ~UdpServer | Close udp server [::]: 10000
+2024-07-24 14:08:01.879 I [MediaServer] [1303000-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 443
+2024-07-24 14:08:01.879 I [MediaServer] [1303000-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9002
+2024-07-24 14:08:01.879 I [MediaServer] [1303000-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 332
+2024-07-24 14:08:01.879 I [MediaServer] [1303000-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9554
+2024-07-24 14:08:01.880 I [MediaServer] [1303000-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9000
+2024-07-24 14:08:01.880 I [MediaServer] [1303000-MediaServer] main.cpp:438 start_main | 程序退出中,请等待...
+2024-07-24 14:08:02.880 I [MediaServer] [1303000-MediaServer] main.cpp:440 start_main | 程序退出完毕!
+2024-07-24 14:08:02.880 I [MediaServer] [1303000-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 0
+2024-07-24 14:08:02.880 I [MediaServer] [1303000-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 1
+2024-07-24 14:08:02.881 I [MediaServer] [1303000-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 2
+2024-07-24 14:08:02.881 I [MediaServer] [1303000-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 3
+2024-07-24 14:08:02.881 I [MediaServer] [1303000-MediaServer] logger.cpp:91 ~Logger | 
+2024-07-24 14:08:05.992 I [MediaServer] [1306270-MediaServer] System.cpp:177 systemSetup | core文件大小设置为:18446744073709551615
+2024-07-24 14:08:05.992 I [MediaServer] [1306270-MediaServer] System.cpp:186 systemSetup | 文件最大描述符个数设置为:1048576
+2024-07-24 14:08:05.992 I [MediaServer] [1306270-MediaServer] main.cpp:258 start_main | ZLMediaKit(git hash:/,branch:,build time:2024-07-12T11:48:44)
+2024-07-24 14:08:05.993 D [MediaServer] [1306270-stamp thread] util.cpp:366 operator() | Stamp thread started
+2024-07-24 14:08:05.993 W [MediaServer] [1306270-event poller 3] util.cpp:571 setThreadAffinity | pthread_setaffinity_np failed: resource temporarily unavailable
+2024-07-24 14:08:05.993 I [MediaServer] [1306270-MediaServer] EventPoller.cpp:587 EventPollerPool | EventPoller created size: 4
+2024-07-24 14:08:05.993 I [MediaServer] [1306270-MediaServer] main.cpp:361 start_main | 已启动http api 接口
+2024-07-24 14:08:05.993 I [MediaServer] [1306270-MediaServer] main.cpp:363 start_main | 已启动http hook 接口
+2024-07-24 14:08:05.993 I [MediaServer] [1306270-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9554
+2024-07-24 14:08:05.994 I [MediaServer] [1306270-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 332
+2024-07-24 14:08:05.994 I [MediaServer] [1306270-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9002
+2024-07-24 14:08:05.994 I [MediaServer] [1306270-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 443
+2024-07-24 14:08:05.994 I [MediaServer] [1306270-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9000
+2024-07-24 14:08:05.994 I [MediaServer] [1306270-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 10000
+2024-07-24 14:08:05.994 I [MediaServer] [1306270-MediaServer] UdpServer.cpp:120 start_l | UDP server bind to [::]: 10000
+2024-07-24 14:08:07.535 I [MediaServer] [1306270-MediaServer] main.cpp:417 operator() | SIGINT:exit
+2024-07-24 14:08:07.535 I [MediaServer] [1306270-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 10000
+2024-07-24 14:08:07.535 I [MediaServer] [1306270-MediaServer] UdpServer.cpp:63 ~UdpServer | Close udp server [::]: 10000
+2024-07-24 14:08:07.535 I [MediaServer] [1306270-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 443
+2024-07-24 14:08:07.535 I [MediaServer] [1306270-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9002
+2024-07-24 14:08:07.535 I [MediaServer] [1306270-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 332
+2024-07-24 14:08:07.535 I [MediaServer] [1306270-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9554
+2024-07-24 14:08:07.535 I [MediaServer] [1306270-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9000
+2024-07-24 14:08:07.536 I [MediaServer] [1306270-MediaServer] main.cpp:438 start_main | 程序退出中,请等待...
+2024-07-24 14:08:08.536 I [MediaServer] [1306270-MediaServer] main.cpp:440 start_main | 程序退出完毕!
+2024-07-24 14:08:08.536 I [MediaServer] [1306270-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 0
+2024-07-24 14:08:08.536 I [MediaServer] [1306270-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 1
+2024-07-24 14:08:08.536 I [MediaServer] [1306270-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 2
+2024-07-24 14:08:08.536 I [MediaServer] [1306270-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 3
+2024-07-24 14:08:08.536 I [MediaServer] [1306270-MediaServer] logger.cpp:91 ~Logger | 
+2024-07-24 14:08:10.572 I [MediaServer] [1306311-MediaServer] System.cpp:177 systemSetup | core文件大小设置为:18446744073709551615
+2024-07-24 14:08:10.572 I [MediaServer] [1306311-MediaServer] System.cpp:186 systemSetup | 文件最大描述符个数设置为:1048576
+2024-07-24 14:08:10.573 I [MediaServer] [1306311-MediaServer] main.cpp:258 start_main | ZLMediaKit(git hash:/,branch:,build time:2024-07-12T11:48:44)
+2024-07-24 14:08:10.573 D [MediaServer] [1306311-stamp thread] util.cpp:366 operator() | Stamp thread started
+2024-07-24 14:08:10.573 W [MediaServer] [1306311-event poller 3] util.cpp:571 setThreadAffinity | pthread_setaffinity_np failed: resource temporarily unavailable
+2024-07-24 14:08:10.573 I [MediaServer] [1306311-MediaServer] EventPoller.cpp:587 EventPollerPool | EventPoller created size: 4
+2024-07-24 14:08:10.573 I [MediaServer] [1306311-MediaServer] main.cpp:361 start_main | 已启动http api 接口
+2024-07-24 14:08:10.574 I [MediaServer] [1306311-MediaServer] main.cpp:363 start_main | 已启动http hook 接口
+2024-07-24 14:08:10.574 I [MediaServer] [1306311-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9554
+2024-07-24 14:08:10.574 I [MediaServer] [1306311-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 332
+2024-07-24 14:08:10.574 I [MediaServer] [1306311-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9002
+2024-07-24 14:08:10.574 I [MediaServer] [1306311-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 443
+2024-07-24 14:08:10.574 I [MediaServer] [1306311-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9000
+2024-07-24 14:08:10.575 I [MediaServer] [1306311-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 10000
+2024-07-24 14:08:10.575 I [MediaServer] [1306311-MediaServer] UdpServer.cpp:120 start_l | UDP server bind to [::]: 10000
+2024-07-24 14:09:04.981 I [MediaServer] [1306311-MediaServer] main.cpp:417 operator() | SIGINT:exit
+2024-07-24 14:09:04.981 I [MediaServer] [1306311-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 10000
+2024-07-24 14:09:04.981 I [MediaServer] [1306311-MediaServer] UdpServer.cpp:63 ~UdpServer | Close udp server [::]: 10000
+2024-07-24 14:09:04.981 I [MediaServer] [1306311-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 443
+2024-07-24 14:09:04.981 I [MediaServer] [1306311-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9002
+2024-07-24 14:09:04.981 I [MediaServer] [1306311-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 332
+2024-07-24 14:09:04.981 I [MediaServer] [1306311-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9554
+2024-07-24 14:09:04.981 I [MediaServer] [1306311-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9000
+2024-07-24 14:09:04.981 I [MediaServer] [1306311-MediaServer] main.cpp:438 start_main | 程序退出中,请等待...
+2024-07-24 14:09:05.982 I [MediaServer] [1306311-MediaServer] main.cpp:440 start_main | 程序退出完毕!
+2024-07-24 14:09:05.982 I [MediaServer] [1306311-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 0
+2024-07-24 14:09:05.982 I [MediaServer] [1306311-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 1
+2024-07-24 14:09:05.982 I [MediaServer] [1306311-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 2
+2024-07-24 14:09:05.982 I [MediaServer] [1306311-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 3
+2024-07-24 14:09:05.982 I [MediaServer] [1306311-MediaServer] logger.cpp:91 ~Logger | 
+2024-07-24 14:09:46.485 I [MediaServer] [1309623-MediaServer] System.cpp:177 systemSetup | core文件大小设置为:18446744073709551615
+2024-07-24 14:09:46.485 I [MediaServer] [1309623-MediaServer] System.cpp:186 systemSetup | 文件最大描述符个数设置为:1048576
+2024-07-24 14:09:46.486 I [MediaServer] [1309623-MediaServer] main.cpp:258 start_main | ZLMediaKit(git hash:/,branch:,build time:2024-07-12T11:48:44)
+2024-07-24 14:09:46.486 D [MediaServer] [1309623-stamp thread] util.cpp:366 operator() | Stamp thread started
+2024-07-24 14:09:46.486 W [MediaServer] [1309623-event poller 3] util.cpp:571 setThreadAffinity | pthread_setaffinity_np failed: resource temporarily unavailable
+2024-07-24 14:09:46.486 I [MediaServer] [1309623-MediaServer] EventPoller.cpp:587 EventPollerPool | EventPoller created size: 4
+2024-07-24 14:09:46.486 I [MediaServer] [1309623-MediaServer] main.cpp:361 start_main | 已启动http api 接口
+2024-07-24 14:09:46.487 I [MediaServer] [1309623-MediaServer] main.cpp:363 start_main | 已启动http hook 接口
+2024-07-24 14:09:46.487 I [MediaServer] [1309623-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9554
+2024-07-24 14:09:46.487 I [MediaServer] [1309623-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 332
+2024-07-24 14:09:46.487 I [MediaServer] [1309623-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9002
+2024-07-24 14:09:46.487 I [MediaServer] [1309623-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 443
+2024-07-24 14:09:46.487 I [MediaServer] [1309623-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9000
+2024-07-24 14:09:46.488 I [MediaServer] [1309623-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 10000
+2024-07-24 14:09:46.488 I [MediaServer] [1309623-MediaServer] UdpServer.cpp:120 start_l | UDP server bind to [::]: 10000
+2024-07-24 14:09:52.394 I [MediaServer] [1309623-MediaServer] main.cpp:417 operator() | SIGINT:exit
+2024-07-24 14:09:52.394 I [MediaServer] [1309623-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 10000
+2024-07-24 14:09:52.394 I [MediaServer] [1309623-MediaServer] UdpServer.cpp:63 ~UdpServer | Close udp server [::]: 10000
+2024-07-24 14:09:52.394 I [MediaServer] [1309623-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 443
+2024-07-24 14:09:52.394 I [MediaServer] [1309623-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9002
+2024-07-24 14:09:52.394 I [MediaServer] [1309623-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 332
+2024-07-24 14:09:52.394 I [MediaServer] [1309623-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9554
+2024-07-24 14:09:52.394 I [MediaServer] [1309623-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9000
+2024-07-24 14:09:52.394 I [MediaServer] [1309623-MediaServer] main.cpp:438 start_main | 程序退出中,请等待...
+2024-07-24 14:09:53.395 I [MediaServer] [1309623-MediaServer] main.cpp:440 start_main | 程序退出完毕!
+2024-07-24 14:09:53.395 I [MediaServer] [1309623-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 0
+2024-07-24 14:09:53.395 I [MediaServer] [1309623-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 1
+2024-07-24 14:09:53.395 I [MediaServer] [1309623-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 2
+2024-07-24 14:09:53.395 I [MediaServer] [1309623-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 3
+2024-07-24 14:09:53.396 I [MediaServer] [1309623-MediaServer] logger.cpp:91 ~Logger | 
+2024-07-24 14:10:07.154 I [MediaServer] [1310300-MediaServer] System.cpp:177 systemSetup | core文件大小设置为:18446744073709551615
+2024-07-24 14:10:07.154 I [MediaServer] [1310300-MediaServer] System.cpp:186 systemSetup | 文件最大描述符个数设置为:1048576
+2024-07-24 14:10:07.154 I [MediaServer] [1310300-MediaServer] main.cpp:258 start_main | ZLMediaKit(git hash:/,branch:,build time:2024-07-12T11:48:44)
+2024-07-24 14:10:07.154 D [MediaServer] [1310300-stamp thread] util.cpp:366 operator() | Stamp thread started
+2024-07-24 14:10:07.155 I [MediaServer] [1310300-MediaServer] EventPoller.cpp:587 EventPollerPool | EventPoller created size: 4
+2024-07-24 14:10:07.155 W [MediaServer] [1310300-event poller 3] util.cpp:571 setThreadAffinity | pthread_setaffinity_np failed: resource temporarily unavailable
+2024-07-24 14:10:07.155 I [MediaServer] [1310300-MediaServer] main.cpp:361 start_main | 已启动http api 接口
+2024-07-24 14:10:07.155 I [MediaServer] [1310300-MediaServer] main.cpp:363 start_main | 已启动http hook 接口
+2024-07-24 14:10:07.155 I [MediaServer] [1310300-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9554
+2024-07-24 14:10:07.155 I [MediaServer] [1310300-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 332
+2024-07-24 14:10:07.156 I [MediaServer] [1310300-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9002
+2024-07-24 14:10:07.156 I [MediaServer] [1310300-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 443
+2024-07-24 14:10:07.156 I [MediaServer] [1310300-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9000
+2024-07-24 14:10:07.156 I [MediaServer] [1310300-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 10000
+2024-07-24 14:10:07.156 I [MediaServer] [1310300-MediaServer] UdpServer.cpp:120 start_l | UDP server bind to [::]: 10000
+2024-07-24 14:11:27.041 D [MediaServer] [1310300-event poller 1] RtspPlayer.cpp:88 play | rtsp://192.168.10.203:554/Streaming/Channels/101 admin retoo123 0
+2024-07-24 14:11:27.123 W [MediaServer] [1310300-event poller 1] RtspPlayer.cpp:694 onPlayResult_l | 0 rtsp play success
+2024-07-24 14:11:27.123 I [MediaServer] [1310300-event poller 1] PlayerProxy.cpp:133 operator() | play rtsp://admin:retoo123@192.168.10.203:554/Streaming/Channels/101 success
+2024-07-24 14:11:27.169 D [MediaServer] [1310300-event poller 1] MediaSink.cpp:162 emitAllTrackReady | All track ready use 46ms
+2024-07-24 14:11:27.170 I [MediaServer] [1310300-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注册:fmp4://__defaultVhost__/live/cam597e006283569
+2024-07-24 14:11:27.170 I [MediaServer] [1310300-event poller 1] MultiMediaSourceMuxer.cpp:561 onAllTrackReady | stream: rtsp://admin:retoo123@192.168.10.203:554/Streaming/Channels/101 , codec info: H264[1280/720/20] 
+2024-07-24 14:11:27.170 I [MediaServer] [1310300-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注册:rtsp://__defaultVhost__/live/cam597e006283569
+2024-07-24 14:11:59.458 I [MediaServer] [1310300-MediaServer] main.cpp:417 operator() | SIGINT:exit
+2024-07-24 14:11:59.458 I [MediaServer] [1310300-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 10000
+2024-07-24 14:11:59.458 I [MediaServer] [1310300-MediaServer] UdpServer.cpp:63 ~UdpServer | Close udp server [::]: 10000
+2024-07-24 14:11:59.459 I [MediaServer] [1310300-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 443
+2024-07-24 14:11:59.459 I [MediaServer] [1310300-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9002
+2024-07-24 14:11:59.459 I [MediaServer] [1310300-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 332
+2024-07-24 14:11:59.459 I [MediaServer] [1310300-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9554
+2024-07-24 14:11:59.459 I [MediaServer] [1310300-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9000
+2024-07-24 14:11:59.459 I [MediaServer] [1310300-MediaServer] main.cpp:438 start_main | 程序退出中,请等待...
+2024-07-24 14:11:59.459 D [MediaServer] [1310300-event poller 1] RtspPlayerImp.h:31 ~RtspPlayerImp | 
+2024-07-24 14:11:59.459 I [MediaServer] [1310300-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注销:fmp4://__defaultVhost__/live/cam597e006283569
+2024-07-24 14:11:59.459 I [MediaServer] [1310300-event poller 1] MediaSource.cpp:517 emitEvent | 媒体注销:rtsp://__defaultVhost__/live/cam597e006283569
+2024-07-24 14:11:59.459 D [MediaServer] [1310300-event poller 1] RtspPlayer.cpp:36 ~RtspPlayer | 
+2024-07-24 14:12:00.459 I [MediaServer] [1310300-MediaServer] main.cpp:440 start_main | 程序退出完毕!
+2024-07-24 14:12:00.459 I [MediaServer] [1310300-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 0
+2024-07-24 14:12:00.459 I [MediaServer] [1310300-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 1
+2024-07-24 14:12:00.460 I [MediaServer] [1310300-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 2
+2024-07-24 14:12:00.460 I [MediaServer] [1310300-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 3
+2024-07-24 14:12:00.460 I [MediaServer] [1310300-MediaServer] logger.cpp:91 ~Logger | 
+2024-07-24 14:12:27.786 I [MediaServer] [1315055-MediaServer] System.cpp:177 systemSetup | core文件大小设置为:18446744073709551615
+2024-07-24 14:12:27.786 I [MediaServer] [1315055-MediaServer] System.cpp:186 systemSetup | 文件最大描述符个数设置为:1048576
+2024-07-24 14:12:27.786 I [MediaServer] [1315055-MediaServer] main.cpp:258 start_main | ZLMediaKit(git hash:/,branch:,build time:2024-07-12T11:48:44)
+2024-07-24 14:12:27.786 D [MediaServer] [1315055-stamp thread] util.cpp:366 operator() | Stamp thread started
+2024-07-24 14:12:27.787 W [MediaServer] [1315055-event poller 3] util.cpp:571 setThreadAffinity | pthread_setaffinity_np failed: resource temporarily unavailable
+2024-07-24 14:12:27.787 I [MediaServer] [1315055-MediaServer] EventPoller.cpp:587 EventPollerPool | EventPoller created size: 4
+2024-07-24 14:12:27.787 I [MediaServer] [1315055-MediaServer] main.cpp:361 start_main | 已启动http api 接口
+2024-07-24 14:12:27.787 I [MediaServer] [1315055-MediaServer] main.cpp:363 start_main | 已启动http hook 接口
+2024-07-24 14:12:27.787 I [MediaServer] [1315055-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9554
+2024-07-24 14:12:27.787 I [MediaServer] [1315055-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 332
+2024-07-24 14:12:27.787 I [MediaServer] [1315055-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9002
+2024-07-24 14:12:27.787 I [MediaServer] [1315055-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 443
+2024-07-24 14:12:27.788 I [MediaServer] [1315055-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 9000
+2024-07-24 14:12:27.788 I [MediaServer] [1315055-MediaServer] TcpServer.cpp:218 start_l | TCP server listening on [::]: 10000
+2024-07-24 14:12:27.788 I [MediaServer] [1315055-MediaServer] UdpServer.cpp:120 start_l | UDP server bind to [::]: 10000
+2024-07-24 14:12:58.698 I [MediaServer] [1315055-MediaServer] main.cpp:417 operator() | SIGINT:exit
+2024-07-24 14:12:58.698 I [MediaServer] [1315055-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 10000
+2024-07-24 14:12:58.698 I [MediaServer] [1315055-MediaServer] UdpServer.cpp:63 ~UdpServer | Close udp server [::]: 10000
+2024-07-24 14:12:58.698 I [MediaServer] [1315055-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 443
+2024-07-24 14:12:58.698 I [MediaServer] [1315055-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9002
+2024-07-24 14:12:58.698 I [MediaServer] [1315055-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 332
+2024-07-24 14:12:58.698 I [MediaServer] [1315055-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9554
+2024-07-24 14:12:58.698 I [MediaServer] [1315055-MediaServer] TcpServer.cpp:49 ~TcpServer | Close tcp server [::]: 9000
+2024-07-24 14:12:58.698 I [MediaServer] [1315055-MediaServer] main.cpp:438 start_main | 程序退出中,请等待...
+2024-07-24 14:12:59.699 I [MediaServer] [1315055-MediaServer] main.cpp:440 start_main | 程序退出完毕!
+2024-07-24 14:12:59.699 I [MediaServer] [1315055-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 0
+2024-07-24 14:12:59.699 I [MediaServer] [1315055-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 1
+2024-07-24 14:12:59.699 I [MediaServer] [1315055-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 2
+2024-07-24 14:12:59.699 I [MediaServer] [1315055-MediaServer] EventPoller.cpp:108 ~EventPoller | event poller 3
+2024-07-24 14:12:59.699 I [MediaServer] [1315055-MediaServer] logger.cpp:91 ~Logger | 
